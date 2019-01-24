@@ -1,0 +1,93 @@
+<style>
+body {
+	background-color: #add8e6; 
+	color : black; 
+}
+h1 {
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+}
+h2 {
+	color : black;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+	color : black;
+}
+p {
+	color : black; 
+	border : 3 #add8e6; 
+	border-radius: 5;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #55d6aa;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container nav {
+	float : right;
+}
+
+.container nav ul {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	list-style: none;
+}
+
+.container nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.container nav a {
+	color: 0000CD;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.container nav a:hover {
+	color: black;
+}
+
+.Information ul {
+	margin: 0;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	list-style: square;
+}
+
+.Information li {
+	padding-bottom: 5px;
+}
+
+.Projects ul {
+	list-style: square;
+	padding: 10;
+	margin: 10;
+}
+
+.Projects li {
+	padding-bottom: 5px;
+}
+
+
+</style>
